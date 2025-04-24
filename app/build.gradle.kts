@@ -48,10 +48,11 @@ dependencies {
     implementation(libs.androidx.sqlite)
 
     // Hilt-Dagger
-
     implementation(libs.hilt.android)
     ksp(libs.hilt.android.compiler)
 
+    // Vico
+    implementation(libs.view)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
