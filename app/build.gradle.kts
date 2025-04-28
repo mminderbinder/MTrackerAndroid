@@ -43,9 +43,10 @@ android {
 
 dependencies {
 
-    // SQLite
-    implementation(libs.androidx.sqlite.framework)
-    implementation(libs.androidx.sqlite)
+    // Room database
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.ktx)
+    ksp(libs.androidx.room.compiler)
 
     // Hilt-Dagger
     implementation(libs.hilt.android)
