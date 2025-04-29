@@ -1,0 +1,13 @@
+package com.example.mtracker.data.models
+
+enum class MoodScale {
+    EXTREMELY_ELEVATED,
+    VERY_ELEVATED,
+    SOMEWHAT_ELEVATED,
+    MILD_ELEVATED,
+    NEUTRAL,
+    MILDLY_DEPRESSED,
+    SOMEWHAT_DEPRESSED,
+    VERY_DEPRESSED,
+    EXTREMELY_DEPRESSED
+}

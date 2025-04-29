@@ -1,4 +1,4 @@
-package com.example.mtracker.data
+package com.example.mtracker.data.local
 
 import androidx.room.RoomDatabase
 
